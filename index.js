@@ -59,3 +59,13 @@ const { muppetName, color, song, job, partner } = muppet;
 const { nestedJob, nestedPartner } = nestedMuppet;
 const { song2, song4 } = nestedMuppet.album.theMuppetMovie;
 
+document.addEventListener( "DOMContentLoaded", function () {
+  updateDOM()
+} );
+
+
+function updateDOM() {
+  document.getElementById( "text" )
+    .innerHTML = "This is really cool!";
+}
+
